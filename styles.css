@@ -1,0 +1,101 @@
+/*
+this is for colours
+*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background: #f5f5f5;
+}
+
+
+.site-header {
+  padding: 24px;
+  background: #222;
+  color: #fff;
+  text-align: center;
+}
+
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+/*
+this makes the buttons at the top scroll smooth
+*/
+html{
+  scroll-behavior: smooth;
+}
+.card {
+  background: rgb(197, 85, 85);
+  margin: 18px auto;
+  padding: 18px;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+/*
+this centers the main image in a flexbox
+*/
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.skills li {
+  margin: 6px 0;
+}
+/*
+makes the form look nice
+*/
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contact-form button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #222;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  opacity: 0.9;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 18px;
+  color: #333;
+}
+/*
+This project went surprisingly well as im used to working with css, I got input from some friends in order to make the website feel more professional.
+next course project I will probably move the form to a different page as to clean it up and make everything the same.
+I could also add more images to the website to fill it up more as it seems kind of empty.
+I am quite confident in this website though and I think it serves as a good introduction to me!
+*/
